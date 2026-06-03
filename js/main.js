@@ -8,80 +8,36 @@ function help(){
   </tr>\
   <tr>\
     <td>about</td>\
-    <td>Everything you ever wanted to know about John Smith</td>\
+    <td>Everything you want to know</td>\
   </tr>\
   <tr>\
     <td>contact</td>\
-    <td>How to get in touch with John Smith</td>\
+    <td>How to get in touch</td>\
   </tr>\
   <tr>\
     <td>links</td>\
-    <td>See what links John Smith wants you to click on</td>\
+    <td>ORCID, LinkedIn and all the others</td>\
   </tr>\
   <tr>\
-    <td>skills</td>\
-    <td>Get to know how good John Smith is at stuff</td>\
+    <td>publications</td>\
+    <td>Academic stuff</td>\
   </tr>\
   <tr>\
     <td>cv</td>\
-    <td>Download John Smith's CV</td>\
-  </tr>\
-  <tr>\
-    <td>rickroll</td>\
-    <td>Never Gonna Give You Up</td>\
-  </tr></table>";
+    <td>Everything in a pdf</td>\
+  </tr>\</table>";
 }
 
 function contact(){
   return "<h2><span style=\"color:#cc6666;\">Contact:</span></h2><table>\
   <tr>\
-    <td>Email</td>\
-    <td><a href=\"mailto:john.smith@emailprovider.com\">john.smith@emailprovider.com</a></td>\
+    <td>Academic email</td>\
+    <td><a href=\"mailto:augustin.debly@univ-nantes.fr\">augustin.debly@univ-nantes.fr</a></td>\
   </tr>\
   <tr>\
-    <td>Telephone</td>\
-    <td><a href=\"tel:+45-657-56234\">+45-657-56234</a></td>\
-  </tr>\
-  <tr>\
-    <td>Address</td>\
-    <td>John Smith</td>\
-  </tr>\
-  <tr>\
-    <td> </td>\
-    <td>205 Autumn Street</td>\
-  </tr>\
-  <tr>\
-    <td> </td>\
-    <td>5472</td>\
-  </tr>\
-  <tr>\
-    <td> </td>\
-    <td>London</td>\
-  </tr>\
-  <tr>\
-    <td> </td>\
-    <td>UK</td>\
-  </tr></table>";
-}
-
-function skills(){
-  return "<h2><span style=\"color:#81a2be;\">Skills:</span></h2><table>\
-  <tr>\
-    <td>Photoshop</td>\
-    <td>▰▰▰▰▰▰▱▱▱▱ 60%</td>\
-  </tr>\
-  <tr>\
-    <td>HTML</td>\
-    <td>▰▰▰▰▰▱▱▱▱▱ 50%</td>\
-  </tr>\
-  <tr>\
-    <td>Premiere Pro</td>\
-    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
-  </tr>\
-  <tr>\
-    <td>Rickrolling</td>\
-    <td>▰▰▰▰▰▰▰▰▰▰ 100%</td>\
-  </tr></table>";
+    <td>Other email</td>\
+    <td><a href=\"mailto:augustin.debly@gmail.com\">augustin.debly@gmail.com</a></td>\
+  </tr>\</table>";
 }
 
 function about(){
@@ -103,83 +59,6 @@ function links(){
   <li><a href=\"https://www.twitter.com\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
   <li><a href=\"https://www.facebook.com\" target=\"_blank\"><i class=\"fab fa-facebook\"></i> Facebook</a></li>\
   </ul>";
-}
-
-function rickroll(){
-  return "<p>We're no strangers to love<br>\
-    You know the rules and so do I<br>\
-    A full commitment's what I'm thinking of<br>\
-    You wouldn't get this from any other guy<br>\
-    <br>\
-    I just wanna tell you how I'm feeling<br>\
-    Gotta make you understand<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you<br>\
-    <br>\
-    We've known each other for so long<br>\
-    Your heart's been aching, but<br>\
-    You're too shy to say it<br>\
-    Inside, we both know what's been going on<br>\
-    We know the game and we're gonna play it<br>\
-    <br>\
-    And if you ask me how I'm feeling<br>\
-    Don't tell me you're too blind to see<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you<br>\
-    <br>\
-    (Ooh, give you up)<br>\
-    (Ooh, give you up)<br>\
-    Never gonna give, never gonna give<br>\
-    (Give you up)<br>\
-    Never gonna give, never gonna give<br>\
-    (Give you up)<br>\
-    <br>\
-    We've known each other for so long<br>\
-    Your heart's been aching, but<br>\
-    You're too shy to say it<br>\
-    Inside, we both know what's been going on<br>\
-    We know the game and we're gonna play it<br>\
-    <br>\
-    I just wanna tell you how I'm feeling<br>\
-    Gotta make you understand<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you</p>";
 }
 
 // Main Function
