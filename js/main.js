@@ -57,7 +57,7 @@ function links(){
   <li><a href=\"https://www.linkedin.com\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
   <li><a href=\"https://orcid.org\" target=\"_blank\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" style=\"width:16px;height:16px;vertical-align:middle;\"><path fill=\"#A6CE39\" d=\"M128 0C57.3 0 0 57.3 0 128s57.3 128 128 128 128-57.3 128-128S198.7 0 128 0zm-23.7 57.4h-13V198h13V57.4zm33.7 0v140.5h40.7c37.7 0 63.6-25.9 63.6-70.3 0-44.2-26-70.2-63.6-70.2h-40.7zm13 12.8h26.5c31.4 0 51.5 20.1 51.5 57.5 0 37.5-20.1 57.6-51.5 57.6H151V70.2zM80.3 44.5c-5 0-9 4-9 9s4 9 9 9 9-4 9-9-4-9-9-9z\"/></svg> ORCID</a></li>\
   <li><a href=\"https://www.researchgate.net\" target=\"_blank\"><i class=\"fab fa-researchgate\"></i> ResearchGate</a></li>\
-  <li><a href=\"https://scholar.google.com\" target=\"_blank\"><i class=\"fas fa-graduation-cap\"></i> Google Scholar</a></li>\
+  <li><a href=\"https://scholar.google.com/citations?user=hjM90v8AAAAJ" target=\"_blank\"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a></li>\
   <li><a href=\"https://www.github.com\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
   </ul>";
 }
