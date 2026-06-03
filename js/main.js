@@ -77,21 +77,15 @@ function commandProcessor(e){
     if(txtInput == "help"){
       document.getElementById('injected').innerHTML=help();
     }else if (txtInput=="all") {
-      document.getElementById('injected').innerHTML=about() + "\n\n\n" + skills() + "\n\n\n" + links() + "\n\n\n" + contact() + "\n\n\n" + cv();
+      document.getElementById('injected').innerHTML=about() + "\n\n\n" + links() + "\n\n\n" + contact() + "\n\n\n" + cv();
     }else if (txtInput == "about") {
       document.getElementById('injected').innerHTML=about();
     }else if (txtInput == "contact") {
       document.getElementById('injected').innerHTML=contact();
     }else if (txtInput == "cv") {
       document.getElementById('injected').innerHTML=cv();
-    }else if (txtInput=="skills") {
-      document.getElementById('injected').innerHTML=skills();
     }else if (txtInput=="links") {
       document.getElementById('injected').innerHTML=links();
-    }else if (txtInput == "rickroll") {
-      var win = window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank');
-      win.focus();
-      document.getElementById('injected').innerHTML=rickroll();
     }else if (txtInput == "credits") {
       document.getElementById('injected').innerHTML=credits();
     }else{
